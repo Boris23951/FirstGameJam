@@ -1,0 +1,422 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.10f1 (1c7d0df0160b) revision 1867021'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'ru' Physical Memory: 65364 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+F:\unity\2021.3.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+F:/game project/GameJame_VorobushekAdventure
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+52799
+Successfully changed project path to: F:/game project/GameJame_VorobushekAdventure
+F:/game project/GameJame_VorobushekAdventure
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 98.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.10f1 (1c7d0df0160b)
+[Subsystems] Discovering subsystems at path F:/unity/2021.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/game project/GameJame_VorobushekAdventure/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 with Max-Q Design (ID=0x1c20)
+    Vendor:   NVIDIA
+    VRAM:     6052 MB
+    Driver:   30.0.14.7141
+Initialize mono
+Mono path[0] = 'F:/unity/2021.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'F:/unity/2021.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'F:/unity/2021.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56792
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: F:/unity/2021.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: F:/unity/2021.3.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: F:/unity/2021.3.10f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: F:/unity/2021.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003813 seconds.
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 122.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.809 seconds
+Domain Reload Profiling:
+	ReloadAssembly (810ms)
+		BeginReloadAssembly (99ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (583ms)
+			LoadAssemblies (98ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (130ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (363ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (69ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (122ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (113ms)
+				ProcessInitializeOnLoadMethodAttributes (54ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006808 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\game project\GameJame_VorobushekAdventure\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\game project\GameJame_VorobushekAdventure\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.343 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1344ms)
+		BeginReloadAssembly (237ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (126ms)
+		EndReloadAssembly (976ms)
+			LoadAssemblies (82ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (341ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (72ms)
+			SetupLoadedEditorAssemblies (431ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (94ms)
+				ProcessInitializeOnLoadAttributes (275ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3935 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (1.3 MB). Loaded Objects now: 4388.
+Memory consumption went from 149.8 MB to 148.4 MB.
+Total: 3.798300 ms (FindLiveObjects: 0.324100 ms CreateObjectMapping: 0.280800 ms MarkObjects: 2.901600 ms  DeleteObjects: 0.290700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1154795.266271 seconds.
+  path: Assets/Dungeon/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/02_Kitchen_01_CuttingBoard#2.fbx
+  artifactKey: Guid(833386d75d20afc47ae8848a6f445176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/02_Kitchen_01_CuttingBoard#2.fbx using Guid(833386d75d20afc47ae8848a6f445176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ffdb166090351d2cc2f7cdee82dcdfc') in 0.576466 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Dungeon/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/99_Decorations_WallBanner_2.fbx
+  artifactKey: Guid(0a3f008b7c8f235498390d0f705b7705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/99_Decorations_WallBanner_2.fbx using Guid(0a3f008b7c8f235498390d0f705b7705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76bfb28e656002a6278d0e523ef18fdf') in 0.021818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Dungeon/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/99_Decorations_WallBanner_5.fbx
+  artifactKey: Guid(2c47b3c297f48df40b76fe28819338e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/99_Decorations_WallBanner_5.fbx using Guid(2c47b3c297f48df40b76fe28819338e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5b212ab20bab111df8cd5c3ec84f6f2') in 0.023961 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Dungeon/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/97_Othert_Key_Red.fbx
+  artifactKey: Guid(768f7077446fbd14d9912f6b0d913fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/97_Othert_Key_Red.fbx using Guid(768f7077446fbd14d9912f6b0d913fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '545b3d200b8350a06e1d55e81774df0f') in 0.020307 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Dungeon/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/99_Enviroment_Floor_02.fbx
+  artifactKey: Guid(f01f226db818888409adf35c625578a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/99_Enviroment_Floor_02.fbx using Guid(f01f226db818888409adf35c625578a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5b61c64260e5b6046342f0b8a8fa0f1') in 0.018630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Dungeon/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/04_Bedroom_01_Beed_4.fbx
+  artifactKey: Guid(e8c9e5adf8a0ced4a850a82188865bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/04_Bedroom_01_Beed_4.fbx using Guid(e8c9e5adf8a0ced4a850a82188865bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3575e9a7b44dc3b82b834f8a549bdc57') in 0.021389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Dungeon/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/02_Kitchen_01_SpoonBucket.fbx
+  artifactKey: Guid(827a0159f61521b42b5ec613b75e8117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/02_Kitchen_01_SpoonBucket.fbx using Guid(827a0159f61521b42b5ec613b75e8117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2281c630744a07cc3ac354cf1494fc96') in 0.020733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Dungeon/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/04_Bedroom_01_Beed_2.fbx
+  artifactKey: Guid(b1317f7181c663f44bfcc2bcf2c5fe85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/04_Bedroom_01_Beed_2.fbx using Guid(b1317f7181c663f44bfcc2bcf2c5fe85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c6da4db454cd91251f105edb4b3ce3e') in 0.018849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Dungeon/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/97_Othert_Barrel_Whole.fbx
+  artifactKey: Guid(f4a2f9011f80b8149958fbd8accb1077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/97_Othert_Barrel_Whole.fbx using Guid(f4a2f9011f80b8149958fbd8accb1077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4375c2478768b08c4d6f88f176b63633') in 0.020013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Dungeon/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/99_Decorations_SpiderWebb_1.fbx
+  artifactKey: Guid(f453fab8f9a1be245a02b9e4e9e20d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/99_Decorations_SpiderWebb_1.fbx using Guid(f453fab8f9a1be245a02b9e4e9e20d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18132ab16b9cbed5340681941e4c7623') in 0.023143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Dungeon/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/02_Kitchen_01_CookingPot#1.fbx
+  artifactKey: Guid(80870dfe9805f444fab1862626cae728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/02_Kitchen_01_CookingPot#1.fbx using Guid(80870dfe9805f444fab1862626cae728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffcfd4db2c4514ec66886194533d9da7') in 0.021031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Dungeon/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/01_Library_01_InkWell#1.fbx
+  artifactKey: Guid(4a1470cf32a2bb24da3b62b136b03a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/01_Library_01_InkWell#1.fbx using Guid(4a1470cf32a2bb24da3b62b136b03a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a31f95d69827d01468a5adb66de2bde') in 0.020499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Dungeon/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/99_Enviroment_DoorsFake#1.fbx
+  artifactKey: Guid(d3a4c6e98bee77d449dde7ab8b36543f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/99_Enviroment_DoorsFake#1.fbx using Guid(d3a4c6e98bee77d449dde7ab8b36543f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaec9b7edd3c9e44020f3985d8621b20') in 0.020739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Dungeon/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/05_Vault_01_Chest_Bottom#1.fbx
+  artifactKey: Guid(098765961acad1548861aaa92041abf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/05_Vault_01_Chest_Bottom#1.fbx using Guid(098765961acad1548861aaa92041abf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '805140eb5edad7ddc47203de32977b0b') in 0.047037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Dungeon/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/04_Bedroom_01_Matrace_ForBeed_1.fbx
+  artifactKey: Guid(1ef5953b6c063f242b91ff91bfb0bc44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/04_Bedroom_01_Matrace_ForBeed_1.fbx using Guid(1ef5953b6c063f242b91ff91bfb0bc44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5d4a71161c5b7ea7c32ab7f4ddedf41') in 0.021816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Dungeon/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/04_Bedroom_01_Beed_3.fbx
+  artifactKey: Guid(a638869df4328a94b8f7ebf1fda3b523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/04_Bedroom_01_Beed_3.fbx using Guid(a638869df4328a94b8f7ebf1fda3b523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7fa93a2ca118ce837c0cc5df094f13c') in 0.021979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Dungeon/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/97_Othert_Amphora_Destroyable.fbx
+  artifactKey: Guid(52cb12b8923562c4396a116aa66d336a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/97_Othert_Amphora_Destroyable.fbx using Guid(52cb12b8923562c4396a116aa66d336a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ef815316400bd573c4d9238cd63ca93') in 0.096095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Resources
+  artifactKey: Guid(3535c999fba16d9438c05ad55806d913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources using Guid(3535c999fba16d9438c05ad55806d913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3770548138c6422958dfdab4b5c78d25') in 0.008728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Dungeon/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/99_Enviroment_Floor_05.fbx
+  artifactKey: Guid(6670a1e69c32cf14c805b03a61a90bb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/99_Enviroment_Floor_05.fbx using Guid(6670a1e69c32cf14c805b03a61a90bb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9a0913c01be8a3074f537681ac41f4a') in 0.018983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Dungeon/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/02_Kitchen_01_WoodenTable#2.fbx
+  artifactKey: Guid(ea28e5713c123c647a7bcfd73549184c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/02_Kitchen_01_WoodenTable#2.fbx using Guid(ea28e5713c123c647a7bcfd73549184c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a1bde117d48b65825a54797b120d08f') in 0.018066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Dungeon/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/03_Blacksmith_01_Forge.fbx
+  artifactKey: Guid(8d2c90bfe34335e44b8a0ab9891d9f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/03_Blacksmith_01_Forge.fbx using Guid(8d2c90bfe34335e44b8a0ab9891d9f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f16c566c1ca5f7b84ca47e983ed9c6f') in 0.020926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Dungeon/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/97_Othert_Amphora_Whole.fbx
+  artifactKey: Guid(05f1982eaf975f44dafab44f8b43ddba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/97_Othert_Amphora_Whole.fbx using Guid(05f1982eaf975f44dafab44f8b43ddba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01a0abb2b171d3d92c8dceac41368f9d') in 0.034116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Dungeon/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/02_Kitchen_01_CookingPot#3.fbx
+  artifactKey: Guid(7d1974cd9f00a6642becc6a9c5f9dd16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/02_Kitchen_01_CookingPot#3.fbx using Guid(7d1974cd9f00a6642becc6a9c5f9dd16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b418155414bda663225762708f5f8bdb') in 0.022684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Dungeon/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/97_Othert_Star.fbx
+  artifactKey: Guid(33bd891aa40ecaf4390d56171a34e1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/97_Othert_Star.fbx using Guid(33bd891aa40ecaf4390d56171a34e1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40b4fc97ce36eff1a05bda4d8cb62e5a') in 0.024032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Dungeon/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/03_Blacksmith_01_AnvilStand.fbx
+  artifactKey: Guid(4ca9d429a2b619d4e86ca28ce00b4b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/03_Blacksmith_01_AnvilStand.fbx using Guid(4ca9d429a2b619d4e86ca28ce00b4b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d98c60f937bcd5f4a1d12f3bc1b0eda') in 0.021256 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Shadow Profile.asset
+  artifactKey: Guid(5d9ff2d59d437554db4a449b79165cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shadow Profile.asset using Guid(5d9ff2d59d437554db4a449b79165cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8362220c9221632bb83996fc7aec3f2') in 0.021393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Dungeon/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/99_Decorations_WallBanner_0.fbx
+  artifactKey: Guid(d6070a2a44a6b3147ba22f247370906b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/99_Decorations_WallBanner_0.fbx using Guid(d6070a2a44a6b3147ba22f247370906b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a9b8cf93e0c1fa726df85faf1d7c46e') in 0.019970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Dungeon/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/97_Othert_Key_Green.fbx
+  artifactKey: Guid(7d50fad5f036ead409f2647aaf87020b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/97_Othert_Key_Green.fbx using Guid(7d50fad5f036ead409f2647aaf87020b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56cbcad7ef2d332e0618df13f00340d5') in 0.019638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Dungeon/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/02_Kitchen_01_CookingPot#2.fbx
+  artifactKey: Guid(20ac841c5eb778d488b5a88d44d1bbee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/02_Kitchen_01_CookingPot#2.fbx using Guid(20ac841c5eb778d488b5a88d44d1bbee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcb8e3f641d6c64c516d92ccf0a394d0') in 0.019642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Dungeon/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/97_Othert_Splash_1.fbx
+  artifactKey: Guid(7e7fb0f195afd2c40b3b96f6fe6217ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/97_Othert_Splash_1.fbx using Guid(7e7fb0f195afd2c40b3b96f6fe6217ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96e8e39f2e1407e92c12be525ce209e1') in 0.019177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Dungeon/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/02_Kitchen_01_CuttingBoard.fbx
+  artifactKey: Guid(2aca63611f404414daf3fd813acac052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/02_Kitchen_01_CuttingBoard.fbx using Guid(2aca63611f404414daf3fd813acac052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd67aaa41107d177a4d47dcc7a392ad74') in 0.017922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Dungeon/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/96_Traps_Trap_Cannon.fbx
+  artifactKey: Guid(a1a3aa8cf7570f443b810db8e3c36055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/96_Traps_Trap_Cannon.fbx using Guid(a1a3aa8cf7570f443b810db8e3c36055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51a6bc6f103ad6cc3810807751d33280') in 0.020405 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Dungeon/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/99_Enviroment_Column_Rocky_1.fbx
+  artifactKey: Guid(3b065307e61a1b04abb4d0063d1265c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/99_Enviroment_Column_Rocky_1.fbx using Guid(3b065307e61a1b04abb4d0063d1265c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '340a6e8aa5109b8472b1096e74f0e400') in 0.016998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Dungeon/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/97_Othert_Key_Green_2.fbx
+  artifactKey: Guid(999d42a44ea251841ad479678d0e76da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/97_Othert_Key_Green_2.fbx using Guid(999d42a44ea251841ad479678d0e76da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '903f682fca48cbc05e58d4d30237ee45') in 0.018933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Dungeon/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/96_Traps_Trap_FloorWheel.fbx
+  artifactKey: Guid(0702578e4efb1c045acba01655e403dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/96_Traps_Trap_FloorWheel.fbx using Guid(0702578e4efb1c045acba01655e403dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acc4329df0ee799db7fa7e6c33b65af1') in 0.033615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Dungeon/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/96_Traps_Trap_RamTower.fbx
+  artifactKey: Guid(edbbcdc12b07aa844b4524d5f1b9cf13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/96_Traps_Trap_RamTower.fbx using Guid(edbbcdc12b07aa844b4524d5f1b9cf13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '368cca99ed138f8df96823c20a056f1a') in 0.021936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Dungeon/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/05_Vault_01_Emerald#1.fbx
+  artifactKey: Guid(12680eb61d88c79488d03e36db47e0f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/05_Vault_01_Emerald#1.fbx using Guid(12680eb61d88c79488d03e36db47e0f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfbfce7dc81c234379973fb288e02064') in 0.021474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Dungeon/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/97_Othert_Key_Yellow_2.fbx
+  artifactKey: Guid(9164e96d5f7440a4eb5a8dd1a8e0855f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/97_Othert_Key_Yellow_2.fbx using Guid(9164e96d5f7440a4eb5a8dd1a8e0855f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37c82a55895c91b7ae1e202eb966bf96') in 0.020080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Dungeon/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/99_Decorations_SpiderWebb_2.fbx
+  artifactKey: Guid(0ece5c8b685346a4ca0e7f26de994d72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/99_Decorations_SpiderWebb_2.fbx using Guid(0ece5c8b685346a4ca0e7f26de994d72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b61f62f078a02c7f81eaf0a0b02dc967') in 0.021441 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Dungeon/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/99_Enviroment_Stears.fbx
+  artifactKey: Guid(e7acb14ed36ace9438cb0acd158f7d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon/CatBorg Studio/3D Dungeon Lowpoly Pack/Models/99_Enviroment_Stears.fbx using Guid(e7acb14ed36ace9438cb0acd158f7d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eed7c089ed898003066a71547398411e') in 0.019334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.098560 seconds.
+  path: Assets/Materials/Carpet_Hat/Carpet 1.mat
+  artifactKey: Guid(157c47e0c183e304d98ecf181ace8326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Carpet_Hat/Carpet 1.mat using Guid(157c47e0c183e304d98ecf181ace8326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd35df9fc23763f4c46825f9ba54b39c3') in 0.237706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.697322 seconds.
+  path: Assets/Materials/Carpet_Hat/Textures/Carpet 1.png
+  artifactKey: Guid(31cd981c8c2d8434ab4d516b9a2989d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Carpet_Hat/Textures/Carpet 1.png using Guid(31cd981c8c2d8434ab4d516b9a2989d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dfc29796f05addad2dff05fd54aaaf0') in 0.032514 seconds 
